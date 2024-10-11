@@ -3,6 +3,10 @@
 ## Overview
 This project implements a classification model to predict GSTN status using a dataset that contains various features. The model is built using the LightGBM algorithm, and hyperparameter optimization is performed with Hyperopt to achieve optimal performance.
 
+## Team members
+1. Akhilesh T S
+2. Karthik Sriram V
+
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
