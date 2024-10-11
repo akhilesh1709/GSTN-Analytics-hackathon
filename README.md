@@ -10,8 +10,6 @@ This project implements a classification model to predict GSTIN status using a d
 4. [Model Training](#model-training)
 5. [Evaluation Metrics](#evaluation-metrics)
 6. [Visualizations](#visualizations)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ## Installation
 
