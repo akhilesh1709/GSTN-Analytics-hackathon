@@ -1,0 +1,7 @@
+2024-10-11 18:56:23,872 - INFO - Starting GSTIN Classification Pipeline
+2024-10-11 18:56:23,872 - INFO - Initializing pipeline components
+2024-10-11 18:56:23,872 - INFO - Starting data preprocessing
+2024-10-11 18:56:27,663 - INFO - Data preprocessing completed
+2024-10-11 18:56:27,663 - INFO - Starting hyperparameter optimization
+2024-10-11 18:56:27,679 - INFO - build_posterior_wrapper took 0.000000 seconds
+2024-10-11 18:56:27,679 - INFO - TPE using 0 trials

@@ -1,0 +1,30 @@
+2024-10-11 18:55:53,670 - INFO - Starting GSTIN Classification Pipeline
+2024-10-11 18:55:53,670 - INFO - Initializing pipeline components
+2024-10-11 18:55:53,670 - INFO - Starting data preprocessing
+2024-10-11 18:55:53,670 - ERROR - An error occurred: [Errno 2] No such file or directory: '/GSTIN dataset/Train_60/Train_60/Train_60/X_Train_Data_Input.csv'
+Traceback (most recent call last):
+  File "D:\GST analytics hackathon\main.py", line 50, in main
+    X_train_scaled, X_test_scaled, y_train, y_test = preprocessor.preprocess_data(
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GST analytics hackathon\src\preprocess.py", line 84, in preprocess_data
+    features_train, labels_train, features_test, labels_test = self.load_data(
+                                                               ^^^^^^^^^^^^^^^
+  File "D:\GST analytics hackathon\src\preprocess.py", line 27, in load_data
+    features_train = pd.read_csv(train_features_path)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TSA\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1024, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TSA\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 618, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TSA\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1618, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TSA\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1878, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\TSA\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/GSTIN dataset/Train_60/Train_60/Train_60/X_Train_Data_Input.csv'
