@@ -49,7 +49,7 @@ pip install pandas numpy scikit-learn lightgbm hyperopt matplotlib seaborn scipy
 3. **Run the script**:
    Execute the Python script in your terminal:
    ```bash
-   python <script_name>.py
+   python main.py
    ```
 
 ## Data Preprocessing
