@@ -1,7 +1,7 @@
-# GSTIN Classification Model
+# GSTN Classification Model
 
 ## Overview
-This project implements a classification model to predict GSTIN status using a dataset that contains various features. The model is built using the LightGBM algorithm, and hyperparameter optimization is performed with Hyperopt to achieve optimal performance.
+This project implements a classification model to predict GSTN status using a dataset that contains various features. The model is built using the LightGBM algorithm, and hyperparameter optimization is performed with Hyperopt to achieve optimal performance.
 
 ## Table of Contents
 1. [Installation](#installation)
